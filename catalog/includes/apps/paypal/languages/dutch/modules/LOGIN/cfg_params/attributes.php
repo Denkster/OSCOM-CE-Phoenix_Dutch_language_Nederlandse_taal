@@ -1,0 +1,29 @@
+cfg_login_attributes_title = Informatie die klanten moeten geven
+cfg_login_attributes_desc = De kenmerken die de klant met u moet delen.
+
+cfg_login_attributes_group_personal = Persoonlijke gegevens
+cfg_login_attributes_group_address = Adresgegevens
+cfg_login_attributes_group_account = Accountgegevens
+cfg_login_attributes_group_checkout = Checkout Express
+
+cfg_login_attributes_attribute_full_name = Volledige naam
+cfg_login_attributes_attribute_date_of_birth = Geboortedatum
+cfg_login_attributes_attribute_age_range = leeftijdsgroep
+cfg_login_attributes_attribute_gender = Geslacht
+
+cfg_login_attributes_attribute_email_address = E-mailadres
+cfg_login_attributes_attribute_street_address = Straat en huisnummer
+cfg_login_attributes_attribute_city = Stad
+cfg_login_attributes_attribute_state = Staat of provincie
+cfg_login_attributes_attribute_country = Land
+cfg_login_attributes_attribute_zip_code = Postcode
+cfg_login_attributes_attribute_phone = Telefoonnummer
+
+cfg_login_attributes_attribute_account_status = Accountstatus (geverifieerd)
+cfg_login_attributes_attribute_account_type = Accounttype
+cfg_login_attributes_attribute_account_creation_date = Datum van aanmaak van het account
+cfg_login_attributes_attribute_time_zone = Tijdzone
+cfg_login_attributes_attribute_locale = Locale
+cfg_login_attributes_attribute_language = Taal
+
+cfg_login_attributes_attribute_seamless_checkout = Naadloos afrekenen
