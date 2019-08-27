@@ -14,6 +14,7 @@
   20190719 Denkster Updated to Phoenix 
   20190720 Denkster Updated to Phoenix 1.0.1.0
   20190724 Denkster QPBPP 2.0 and MOD 8885_Invoice Editor v.1.3 for 2.3.x commented out
+  20190827 Denkster replaced Denkster specific items by generic items 
 */
 
 // look in your $PATH_LOCALE/locale directory for available locales..
@@ -50,7 +51,7 @@ define('HTML_PARAMS',                      'dir="ltr" lang="nl"');
 define('CHARSET', 'utf-8');
 
 // page title
-define('TITLE',                            'Kantoor van webwinkel van Denkster');
+define('TITLE',                            'Kantoor van webwinkel van ' . STORE_NAME);
 
 // header text in includes/header.php
 define('HEADER_TITLE_TOP',                 'Administratie');

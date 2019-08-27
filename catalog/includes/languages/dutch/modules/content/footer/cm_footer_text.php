@@ -31,5 +31,5 @@
 
   define('MODULE_CONTENT_FOOTER_TEXT_TEXT',          '<p class="smallText"><div align="center">Alle prijzen zijn '. 
 ( (DISPLAY_PRICE_WITH_TAX == 'true')? 'in' : 'ex') .
-'clusief BTW <span class="Roodvet">|</span>');
+'clusief BTW</p>');
 

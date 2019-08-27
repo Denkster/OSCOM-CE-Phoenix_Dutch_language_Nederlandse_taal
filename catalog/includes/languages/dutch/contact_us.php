@@ -40,6 +40,6 @@ define('ENTRY_STORE_PHONE',                   'Telefoon: ');          // store p
 define('ENTRY_STORE_TAX_NR',                  'BTWnummer: ');     // store tax number is in database STORE_TAX_NUMBER
 define('ENTRY_STORE_KVK_NR',                  'Kamer van koophandel registratie: ');  // store CoC number is in database STORE_KVK_NR
 define('ENTRY_STORE_BANK_ACCOUNT_NAME',       'Ten name van: ');   // store name is in database STORE_NAME . STORE_ADDRESS
-define('ENTRY_STORE_ACCOUNT_IBAN',            'Banrekening (IBAN): ');  // store bank account number  is in database STORE_BANK_ACCOUNT_NR_NATIONAL
+define('ENTRY_STORE_ACCOUNT_IBAN',            'Bankrekening (IBAN): ');  // store bank account number  is in database STORE_BANK_ACCOUNT_NR_NATIONAL
 define('TEXT_STORE_BANK_INTERNATIONAL_CODE',  'Bank Identificatie Code (BIC): ');
 
