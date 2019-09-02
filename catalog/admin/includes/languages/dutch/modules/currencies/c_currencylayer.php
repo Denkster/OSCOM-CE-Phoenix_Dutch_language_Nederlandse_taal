@@ -20,8 +20,8 @@
   20190808 Denkster vertaling en update to Phoenix 1.0.1.2
 */
 
-define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_TITLE',       'Valutalaag);
-define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_DESCRIPTION', 'Valuta bijwerken via de Valutalaat API.<div class="secWarning">Requires an API key from https://currencylayer.com</div>');
+define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_TITLE',       'Valutalaag');
+define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_DESCRIPTION', 'Valuta bijwerken via de CurrencyLayer API. <div class="secWarning">Vereist een API key van https://currencylayer.com</div>');
 
 // good
 define('MODULE_ADMIN_CURRENCIES_CURRENCYLAYER_CURRENCIES_UPDATED', 'De wisselkoers voor %s bijwerken via de Valutalaag API is gelukt.');

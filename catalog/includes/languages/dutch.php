@@ -13,6 +13,7 @@
 
   20190717 Denkster Updated to Phoenix
   20190817 Denkster Updated to Phoenix 1.0.2.0
+  20190901 Denkster Updated to Phoenix 1.0.2.1
 */
 
 // look in your $PATH_LOCALE/locale directory for available locales
@@ -52,7 +53,7 @@ function tep_date_raw($date, $reverse = false) {
 define('LANGUAGE_CURRENCY',                       'EUR');
 
 // Global entries for the <html> tag
-define('HTML_PARAMS',                             '');
+define('HTML_PARAMS',                             'dir="ltr" lang="nl"');
 
 // charset for web pages and emails
 define('CHARSET',                                 'utf-8');
@@ -157,7 +158,7 @@ define('ENTRY_STATE_TEXT',                        '');
 
 define('ENTRY_COUNTRY',                           'Land:');
 define('ENTRY_COUNTRY_ERROR',                     'U moet een land uit het uittrekmenu kiezen.');
-define('ENTRY_COUNTRY_TEXT',                       '');
+define('ENTRY_COUNTRY_TEXT',                      '');
 
 define('ENTRY_TELEPHONE_NUMBER',                  'Telefoon:');
 define('ENTRY_TELEPHONE_NUMBER_ERROR',            'Vul minimaal ' .ENTRY_TELEPHONE_MIN_LENGTH . ' tekens in bij Telefoonnummer.');
@@ -189,8 +190,6 @@ define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING',   'U vulde verschillende waarden
 define('TEXT_RESULT_PAGE',                        'Pagina(s) gevonden:');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS',         'Toont artikel <strong>%d</strong> tot en met '. 
                                                   '<strong>%d</strong> (van <strong>%d</strong> artikelen)');
-define('TEXT_DISPLAY_NUMBER_OF_REVIEWS',          'Toont beoordelingen <strong>%d</strong> tot en met '. 
-                                                  '<strong>%d</strong> (van <strong>%d</strong> beoordelingen)');
 
 define('PREVNEXT_TITLE_FIRST_PAGE',               'Eerste pagina');
 define('PREVNEXT_TITLE_PREVIOUS_PAGE',            'Vorige pagina');
@@ -205,21 +204,17 @@ define('PREVNEXT_BUTTON_NEXT',                    '[Volgende&nbsp;&gt;&gt;]');
 define('PREVNEXT_BUTTON_LAST',                    'LAST&gt;&gt;');
 
 define('IMAGE_BUTTON_ADD_ADDRESS',                'Adres toevoegen');
-
 define('IMAGE_BUTTON_BACK',                       'Terug');
 define('IMAGE_BUTTON_BUY_NOW',                    'Bestel NU');
 define('IMAGE_BUTTON_CHANGE_ADDRESS',             'Adres veranderen');
 define('IMAGE_BUTTON_CHECKOUT',                   'Afrekenen');
 define('IMAGE_BUTTON_CONFIRM_ORDER',              'Controleer en bevestig bestelling');
 define('IMAGE_BUTTON_CONTINUE',                   'Volgende');
-
 define('IMAGE_BUTTON_DELETE',                     'Verwijderen');
-
 define('IMAGE_BUTTON_LOGIN',                      'Inloggen');
 define('IMAGE_BUTTON_IN_CART',                    'In winkelkar');
 define('IMAGE_BUTTON_SEARCH',                     'Zoeken');
 define('IMAGE_BUTTON_UPDATE',                     'Bijwerken');
-define('IMAGE_BUTTON_WRITE_REVIEW',               'Beoordeling schrijven');
 
 define('SMALL_IMAGE_BUTTON_DELETE',               'Verwijderen');
 define('SMALL_IMAGE_BUTTON_EDIT',                 'Bewerken');
@@ -232,8 +227,6 @@ define('TEXT_SORT_PRODUCTS',                      'Sorteer artikelen ');
 define('TEXT_DESCENDINGLY',                       'aflopend');
 define('TEXT_ASCENDINGLY',                        'oplopend');
 define('TEXT_BY',                                 ' volgens ');
-
-define('TEXT_NO_REVIEWS',                         'Er zijn nog geen beoordelingen.');
 
 define('TEXT_UNKNOWN_TAX_RATE',                   'Onbekend belastingstarief');
 
@@ -256,11 +249,6 @@ define('TEXT_SEARCH_PLACEHOLDER',                 'Zoek');
 // message for required inputs
 define('FORM_REQUIRED_INFORMATION',               '<i class="fas fa-asterisk text-danger"></i> Verplicht gegeven');
 define('FORM_REQUIRED_INPUT',                     '<span class="form-control-feedback text-danger"><i class="fas fa-asterisk"></i></span>');
-
-// reviews
-define('REVIEWS_TEXT_RATED',                      'Gewaardeerd als %s door <cite title="%s" itemprop="author">%s</cite>');
-define('REVIEWS_TEXT_AVERAGE',                    'Gemiddelde waardering gebaseerd op %s beoordelingen %s');
-define('REVIEWS_TEXT_TITLE',                      'Wat onze klanten zeggen...');
 
 // grid/list
 define('TEXT_SORT_BY',                            'Sorteer op ');
