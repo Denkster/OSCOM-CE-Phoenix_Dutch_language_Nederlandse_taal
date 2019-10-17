@@ -2,7 +2,7 @@
 /*
   $Id:nb_shopping_cart.php$
 
-  $Path: /catalog/includes/languages/dutch/modules/navbar_modules/ $  
+  $Path:catalog/includes/languages/dutch/modules/navbar_modules/ $  
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com 
@@ -21,12 +21,13 @@
   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
   20190804 Denkster Vertaald en Updated to Phoenix 1.0.1.2
+  20190914 Denkster Updated to Phoenix 1.0.2.4
 */
 
   define('MODULE_NAVBAR_SHOPPING_CART_TITLE',        'Winkelkar');
   define('MODULE_NAVBAR_SHOPPING_CART_DESCRIPTION',  'Toon winkelkar in navigatiebalk');
   
-  define('MODULE_NAVBAR_SHOPPING_CART_CONTENTS',     '<i class="fas fa-shopping-cart fa-fw"></i> %s item(s) <span class="caret"></span>');
+  define('MODULE_NAVBAR_SHOPPING_CART_CONTENTS',     '<i title="Winkelkar" class="fas fa-shopping-cart fa-fw"></i><span class="d-inline d-sm-none d-md-inline"> %1$s item(s)</span> <span class="caret"></span>');
   define('MODULE_NAVBAR_SHOPPING_CART_NO_CONTENTS',  '<i class="fas fa-shopping-cart fa-fw"></i> 0 items');
   define('MODULE_NAVBAR_SHOPPING_CART_HAS_CONTENTS', '%s item(s), %s');
   define('MODULE_NAVBAR_SHOPPING_CART_VIEW_CART',    'Toon kar');

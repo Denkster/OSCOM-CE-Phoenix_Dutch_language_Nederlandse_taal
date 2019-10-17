@@ -14,6 +14,8 @@
   20190717 Denkster Updated to Phoenix
   20190817 Denkster Updated to Phoenix 1.0.2.0
   20190901 Denkster Updated to Phoenix 1.0.2.1
+  20190914 Denkster Updated to Phoenix 1.0.2.3
+  20191013 Denkster Updated to Phoenix 1.0.2.6
 */
 
 // look in your $PATH_LOCALE/locale directory for available locales
@@ -215,6 +217,7 @@ define('IMAGE_BUTTON_LOGIN',                      'Inloggen');
 define('IMAGE_BUTTON_IN_CART',                    'In winkelkar');
 define('IMAGE_BUTTON_SEARCH',                     'Zoeken');
 define('IMAGE_BUTTON_UPDATE',                     'Bijwerken');
+define('IMAGE_BUTTON_UPDATE_PREFERENCES',         'Voorkeuren bijwerken');
 
 define('SMALL_IMAGE_BUTTON_DELETE',               'Verwijderen');
 define('SMALL_IMAGE_BUTTON_EDIT',                 'Bewerken');
@@ -231,12 +234,12 @@ define('TEXT_BY',                                 ' volgens ');
 define('TEXT_UNKNOWN_TAX_RATE',                   'Onbekend belastingstarief');
 
 define('TEXT_CCVAL_ERROR_INVALID_DATE',           'De vervaldatum van de creditard, die u invulde, is ongeldig. '. 
-                                                  'Controleer alstublieft de datum en probeer het opnieuw.');
+                                                  'Controleer a.u.b. de datum en probeer het opnieuw.');
 define('TEXT_CCVAL_ERROR_INVALID_NUMBER',         'Het nummer dat u invulde is geen geldig nummer van een creditcard. '. 
-                                                  'Controleer alstublieft het nummer en probeer het opnieuw.');
+                                                  'Controleer a.u.b. het nummer en probeer het opnieuw.');
 define('TEXT_CCVAL_ERROR_UNKNOWN_CARD',           'U vulde voor de eerste vier cijfers van uw creditCard in: %s. '. 
                                                   'We accepteren geen creditcards. die beginnen met die vier cijfers. '. 
-                                                  'Probeer alstublieft een ander nummer.');
+                                                  'Probeer a.u.b. een ander nummer.');
 
 // category views
 define('TEXT_VIEW',                               'Bekijk: ');
@@ -287,3 +290,11 @@ define('IS_PRODUCT_BUTTON_VIEW',                  '<i class="fas fa-eye"></i> To
 define('LISTING_SORT_DOWN',                       '<i class="fas fa-level-down-alt text-primary"></i>');
 define('LISTING_SORT_UP',                         '<i class="fas fa-level-up-alt text-primary"></i>');
 define('LISTING_SORT_UNSELECTED',                 '<i class="fas fa-level-up-alt text-black-50"></i>');
+// for new style internal pages
+define('LINK_TEXT_EDIT',                          '<small><a class="%s" href="' . tep_href_link('%s', '', 'SSL') . '">Wijzig</a></small>');
+define('SHIPPING_FA_ICON',                        '<i class="fas fa-shipping-fast fa-fw fa-3x float-right text-black-50"></i>');
+define('PAYMENT_FA_ICON',                         '<i class="fas fa-file-invoice-dollar fa-fw fa-3x float-right text-black-50"></i>');
+
+define('ENTRY_COMMENTS',                          'Wilt u iets laten weten?');
+define('ENTRY_COMMENTS_PLACEHOLDER',              'Plaats uw opmerkingen hier...');
+define('TABLE_HEADING_OR',                        '-of-');

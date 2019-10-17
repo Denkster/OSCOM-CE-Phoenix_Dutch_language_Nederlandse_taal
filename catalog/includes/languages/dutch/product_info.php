@@ -15,8 +15,3 @@
   20190804 Denkster Updated to Phoenix 1.0.1.2 (now empty)
 */
 
-// BOF qpbpp 2.0
-define('TEXT_ENTER_QUANTITY',  'Aantal');
-define('TEXT_PRICE_PER_PIECE', 'Prijs per stuk');
-define('TEXT_SAVINGS',         'Uw voordeel');
-// EOF qpbpp 2.0

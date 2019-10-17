@@ -12,10 +12,11 @@
   Released under the GNU General Public License
 
   20190804 Denkster Vertaald en Updated to Phoenix 1.0.1.2
+  20190914 Denkster Updated to Phoenix 1.0.2.3
 */
 
   define('MODULE_BOXES_MANUFACTURER_INFO_TITLE',              'Fabrikanteninformatie');
-  define('MODULE_BOXES_MANUFACTURER_INFO_DESCRIPTION',        'Toon fabrikanteninformatie op de pagina met productinformatie');
+  define('MODULE_BOXES_MANUFACTURER_INFO_DESCRIPTION',        'Toon fabrikanteninformatie op de pagina met artikelinformatie');
   define('MODULE_BOXES_MANUFACTURER_INFO_BOX_TITLE',          'Fabrikanteninformatie');
-  define('MODULE_BOXES_MANUFACTURER_INFO_BOX_HOMEPAGE',       'Pagina van fabrikant %s');
+  define('MODULE_BOXES_MANUFACTURER_INFO_BOX_HOMEPAGE',       'Pagina van fabrikant %s <i class="fas fa-external-link-alt fa-xs"></i>');
   define('MODULE_BOXES_MANUFACTURER_INFO_BOX_OTHER_PRODUCTS', 'Andere producten van deze fabrikant');

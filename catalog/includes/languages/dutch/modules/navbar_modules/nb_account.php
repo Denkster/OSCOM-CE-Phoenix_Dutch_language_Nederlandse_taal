@@ -2,7 +2,7 @@
 /*
   $Id:nb_account.php$
 
-  $Path: /catalog/includes/languages/dutch/modules/navbar_modules/ $  
+  $Path:catalog/includes/languages/dutch/modules/navbar_modules/ $  
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
@@ -21,12 +21,13 @@
   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
   20190804 Denkster Vertaald en Updated to Phoenix 1.0.1.2
+  20190914 Denkster Updated to Phoenix 1.0.2.4
 */
 
   define('MODULE_NAVBAR_ACCOUNT_TITLE',        'Klantgegevens');
   define('MODULE_NAVBAR_ACCOUNT_DESCRIPTION',  'Toon bewerkingen op klantgegevens in de navigatiebalk.');
   
-  define('MODULE_NAVBAR_ACCOUNT_LOGGED_OUT',   '<i class="fas fa-user fa-fw"></i> Klantgegevens <span class="caret"></span>');
+  define('MODULE_NAVBAR_ACCOUNT_LOGGED_OUT',   '<i title="Klantgegevens" class="fas fa-user fa-fw"></i><span class="d-inline d-sm-none d-md-inline"> Klantgegevens</span> <span class="caret"></span>');
   define('MODULE_NAVBAR_ACCOUNT_LOGGED_IN',    '<i class="fas fa-user fa-fw"></i> %s <span class="caret"></span>');
   define('MODULE_NAVBAR_ACCOUNT_LOGIN',        '<i class="fas fa-sign-in-alt fa-fw"></i> Inloggen');
   define('MODULE_NAVBAR_ACCOUNT_LOGOFF',       '<i class="fas fa-sign-out-alt fa-fw"></i> Uitloggen');

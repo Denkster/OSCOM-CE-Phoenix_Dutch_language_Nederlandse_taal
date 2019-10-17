@@ -12,6 +12,7 @@
   Released under the GNU General Public License
 
   20190804 Denkster Vertaald en Updated to Phoenix 1.0.1.2
+  20190914 Denkster Updated to Phoenix 1.0.2.3
 */
 
   define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_TITLE',             'Artikelnieuwtjes');
@@ -19,3 +20,5 @@
   define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_TITLE',         'Artikelnieuwtjes');
   define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_NOTIFY',        'Houd me op de hoogte van updates van <strong>%s</strong>');
   define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_BOX_NOTIFY_REMOVE', 'Stuur me geen nieuwtjes over <strong>%s</strong>');
+  
+  define('MODULE_BOXES_PRODUCT_NOTIFICATIONS_VIEW',              '<i class="fas fa-eye"></i> Toon alles');

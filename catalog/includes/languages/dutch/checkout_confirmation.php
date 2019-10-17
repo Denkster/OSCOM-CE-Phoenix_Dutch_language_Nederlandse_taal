@@ -13,6 +13,7 @@
 
   20080104 Denkster Tekst vertaald
   20190804 Denkster Updated to Phoenix 1.0.1.2
+  20191013 Denkster Updated to Phoenix 1.0.2.6
 */
 
 define('NAVBAR_TITLE_1',               'Afrekenen');
@@ -33,9 +34,10 @@ define('HEADING_PAYMENT_INFORMATION',  'Betaalinformatie');
 define('HEADING_ORDER_COMMENTS',       'Uw opmerking bij de bestelling');
 
 define('TEXT_EDIT',                    'Wijzig');
-define('EMAIL_TEXT_COMMENTS',          'Opmerking voor de e-mail');
 
 define('IMAGE_BUTTON_FINALISE_ORDER',  'Bestelling afronden en betalen');
 
 define('HEADING_QTY',                  'Aant.');
 
+define('LIST_PRODUCTS',                'Artikelen');
+define('ORDER_DETAILS',                'Details van uw bestelling');

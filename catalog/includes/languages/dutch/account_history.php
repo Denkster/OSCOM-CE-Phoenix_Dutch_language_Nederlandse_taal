@@ -2,7 +2,7 @@
 /*
   $Id:account_history.php$
 
-  $Path: /catalog/includes/languages/dutch/ $
+  $Path:catalog/includes/languages/dutch/ $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
@@ -17,6 +17,7 @@
   20110317 Denkster Tekstuele aanpassingen
   20190717 Denkster Updated to Phoenix
   20190804 Denkster Updated to Phoenix 1.0.1.2
+  20190914 Denkster Updated to Phoenix 1.0.2.4
 */
 
 define('NAVBAR_TITLE_1',        'Uw klantgegevens');
@@ -32,6 +33,8 @@ define('TEXT_ORDER_BILLED_TO',  'Factuur naar:');
 define('TEXT_ORDER_PRODUCTS',   'Artikelen:');
 define('TEXT_ORDER_COST',       'Factuurtotaal:');
 define('TEXT_VIEW_ORDER',       'Bekijk bestelling');
+
+define('BUTTON_VIEW_ORDER',     '<i title="Toon bestelling" class="fas fa-eye"></i>');
 
 define('TEXT_NO_PURCHASES',     'U heeft nog niets besteld');
 
